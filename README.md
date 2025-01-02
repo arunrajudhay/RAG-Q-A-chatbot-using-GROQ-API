@@ -21,4 +21,16 @@ To run this application locally, you need to have the following libraries:
 To install all the necessary dependencies, simply run :  
 pip install -r requirements.txt
 
+## Setup Instructions
+1. Clone the Repository
+2. Set up Environment Variables
+3. Upload Research Papers
+4. Run the Application
+
+## How It Works
+1. Document Loading: The PDF documents in the research_papers directory are loaded using PyPDFDirectoryLoader and split into chunks using RecursiveCharacterTextSplitter for easier processing.
+2. Embeddings: The loaded documents are embedded using OllamaEmbeddings, which allows for efficient comparison and retrieval of relevant document chunks based on user queries.
+3. Vector Storage: The embeddings are stored in an in-memory Chroma vector store, allowing fast retrieval of relevant documents.
+4. Query Answering: When a user submits a query, the application retrieves the most relevant document chunks, sends them along with the query to Groq's LLM for response generation, and streams the response in real-time.
+
 
