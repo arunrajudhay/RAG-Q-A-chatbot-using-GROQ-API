@@ -1,5 +1,5 @@
 # RAG Document Q&A with Groq
-Welcome to the RAG Document Q&A with Groq application! This application allows you to interact with research papers, asking questions, and receiving answers based on the content of those documents using a Retrieval-Augmented Generation (RAG) approach with the power of Groq's API and LangChain.
+Welcome to the RAG Document Q&A with Groq application! This application allows you to interact with pdf documents, asking questions, and receiving answers based on the content of those documents using a Retrieval-Augmented Generation (RAG) approach with the power of Groq's API and LangChain.
 
 ## Features
 * Document Loading & Processing: Load PDF documents from a directory, split them into manageable chunks, and prepare them for query answering.
@@ -14,9 +14,7 @@ To run this application locally, you need to have the following libraries:
 * groq
 * langchain-community
 * langchain
-* requests
 * PyPDF2
-* numpy
 
 To install all the necessary dependencies, simply run :  
 pip install -r requirements.txt
@@ -24,7 +22,7 @@ pip install -r requirements.txt
 ## Setup Instructions
 1. Clone the Repository
 2. Set up Environment Variables
-3. Upload Research Papers
+3. Upload pdf documents
 4. Run the Application
 
 ## How It Works
