@@ -18,7 +18,7 @@ To run this application locally, you need to have the following libraries:
 * PyPDF2
 * numpy
 
-To install all the necessary dependencies, simply run:
+To install all the necessary dependencies, simply run :  
 pip install -r requirements.txt
 
 
