@@ -33,4 +33,15 @@ pip install -r requirements.txt
 3. Vector Storage: The embeddings are stored in an in-memory Chroma vector store, allowing fast retrieval of relevant documents.
 4. Query Answering: When a user submits a query, the application retrieves the most relevant document chunks, sends them along with the query to Groq's LLM for response generation, and streams the response in real-time.
 
+## Example Usage
+1. Open the app, and you'll be prompted to enter a question.
+2. After entering a question, click on the "Ask" button.
+3. The app will fetch relevant document context and provide an answer in real-time.
+
+## Sample Output
+* User Query: "What are the latest trends in AI research?"
+* Generated Answer: Based on the context of the uploaded documents, the model will respond with an accurate answer.
+
+## Contributing
+
 
